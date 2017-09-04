@@ -9,6 +9,7 @@ int main()
         int p=sqrt(n);
         if(n==2||n==3)
         {       printf("Given number is  a prime number");
+         exit(0);
         }
          if((n%2)==0||(n%3)==0||(n%5)==0||(n%p)==0)
         {
