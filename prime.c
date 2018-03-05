@@ -12,6 +12,7 @@ void is_prime(int n)
                 count++;
 
         }
+ //If a number is not divisible by 2,3,5 and itself then it is a prime number
         if(count==0)
         {
                 printf("Given number is a  prime number");
