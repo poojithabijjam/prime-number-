@@ -3,6 +3,7 @@
 static int count;
 void is_prime(int n)
 {
+ int p=sqrt(n);
  if(n==2||n==3)
         {       printf("Given number is  a prime number");
          exit(0);
@@ -12,7 +13,7 @@ void is_prime(int n)
                 count++;
 
         }
- //If a number is not divisible by 2,3,5 and itself then it is a prime number
+ //If a number is not divisible by 2,3,5 and square root of itself then it is a prime number
         if(count==0)
         {
                 printf("Given number is a  prime number");
