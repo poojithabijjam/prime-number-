@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-static int count
+static int count;
 void is_prime(int n)
 {
  if(n==2||n==3)
